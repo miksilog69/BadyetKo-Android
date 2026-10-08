@@ -13,8 +13,8 @@ android {
         applicationId = "com.badyetko.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
 
         buildConfigField("String", "API_BASE", "\"https://liquid-budget-tracker.vercel.app\"")
         buildConfigField("String", "SUPABASE_URL", "\"https://sgyleauirgtwlpzvhlup.supabase.co\"")
