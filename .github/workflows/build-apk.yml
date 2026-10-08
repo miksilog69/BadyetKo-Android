@@ -45,9 +45,13 @@ jobs:
         run: |
           gradle :app:assembleDebug --stacktrace
 
+      - name: Rename APK
+        run: |
+          cp app/build/outputs/apk/debug/app-debug.apk BadyetKo-v1.1.0.apk
+
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: BadyetKo-debug-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          name: BadyetKo-v1.1.0
+          path: BadyetKo-v1.1.0.apk
           if-no-files-found: error
