@@ -28,3 +28,5 @@ Add `badyetko://login-callback` to the project's allowed redirect URLs in Supaba
 The included `.github/workflows/build-apk.yml` builds a native debug APK and uploads it as a GitHub Actions artifact.
 
 <!-- Build status trigger -->
+
+<!-- APK workflow trigger 2 -->
